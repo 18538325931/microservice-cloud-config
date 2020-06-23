@@ -1,4 +1,4 @@
-spring:
+﻿spring:
   profiles:
     active: dev
 ---
@@ -40,7 +40,7 @@ mybatis:
   mapper-locations: classpath:mybatis/mapper/**/*.xml
   type-aliases-package: com.sunyalei.springcloud.entities
 spring:
-  profiles: dev
+  profiles: prod
   application:
     name: microservice-product
   datasource:
