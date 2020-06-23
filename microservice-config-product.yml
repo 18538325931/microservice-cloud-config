@@ -11,7 +11,7 @@ mybatis:
 spring:
   profiles: dev
   application:
-    name: microservice-product
+    name: microservice-product1111
   datasource:
     username: root
     password: root
