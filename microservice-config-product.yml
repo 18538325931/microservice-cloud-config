@@ -3,7 +3,7 @@
     active: dev
 ---
 emp:
-  name: lisi
+  name: wangwu
 server:
   port: 8001
 mybatis:
