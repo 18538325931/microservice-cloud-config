@@ -17,7 +17,7 @@ spring:
   datasource:
     username: root
     password: root
-    url: jdbc:mysql://127.0.0.1:3306/springcloud_db01?serverTimezone=GMT%2B8
+    url: jdbc:mysql://192.168.157.129:33306/springcloud_db01?serverTimezone=GMT%2B8
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     dbcp2:
@@ -30,7 +30,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://eureka6001.com:6001/eureka/
+      defaultZone: http://192.168.157.129:6001/eureka/
   instance:
     instance-id: ${spring.application.name}:${server.port} # 指定实例ID,就不会显示主机名了
     prefer-ip-address: true #访问路径可以显示IP地址
@@ -48,7 +48,7 @@ spring:
   datasource:
     username: root
     password: root
-    url: jdbc:mysql://127.0.0.1:3306/springcloud_db02?serverTimezone=GMT%2B8
+    url: jdbc:mysql://192.168.157.129:33306/springcloud_db02?serverTimezone=GMT%2B8
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     dbcp2:
@@ -61,7 +61,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://eureka6001.com:6001/eureka/
+      defaultZone: http://192.168.157.129:6001/eureka/
   instance:
     instance-id: ${spring.application.name}:${server.port} # 指定实例ID,就不会显示主机名了
     prefer-ip-address: true #访问路径可以显示IP地址
